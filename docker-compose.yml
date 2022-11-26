@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+  powerball-exporter:
+    image: powerball-api
+    build: .
+    container_name: powerball-api
+    ports:
+      - "8081:8080"
